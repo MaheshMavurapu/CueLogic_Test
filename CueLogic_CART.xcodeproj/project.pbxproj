@@ -9,10 +9,26 @@
 /* Begin PBXBuildFile section */
 		35793CF71D917089008E755A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793CF61D917089008E755A /* main.m */; };
 		35793CFA1D917089008E755A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793CF91D917089008E755A /* AppDelegate.m */; };
-		35793CFD1D917089008E755A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793CFC1D917089008E755A /* ViewController.m */; };
 		35793D001D917089008E755A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35793CFE1D917089008E755A /* Main.storyboard */; };
 		35793D021D917089008E755A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35793D011D917089008E755A /* Assets.xcassets */; };
 		35793D051D917089008E755A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35793D031D917089008E755A /* LaunchScreen.storyboard */; };
+		35793D0E1D91711C008E755A /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D0D1D91711C008E755A /* ProductsViewController.m */; };
+		35793D111D917132008E755A /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D101D917132008E755A /* CartViewController.m */; };
+		35793D181D9180BB008E755A /* ParseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D171D9180BB008E755A /* ParseData.m */; };
+		35793D1B1D918404008E755A /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D1A1D918404008E755A /* Products.m */; };
+		35793D1E1D918486008E755A /* SingleProductS.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D1D1D918486008E755A /* SingleProductS.m */; };
+		35793D261D9191F7008E755A /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D251D9191F7008E755A /* ProductCell.m */; };
+		35793D291D919210008E755A /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D281D919210008E755A /* CartCell.m */; };
+		35793D2C1D919896008E755A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D2B1D919896008E755A /* DBManager.m */; };
+		35793D451D919CFF008E755A /* DBParseSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D441D919CFF008E755A /* DBParseSave.m */; };
+		35793D811D91A6B0008E755A /* CueLogicProducts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35793D7F1D91A6B0008E755A /* CueLogicProducts.xcdatamodeld */; };
+		35793D921D91A6F2008E755A /* Product+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D831D91A6F2008E755A /* Product+CoreDataProperties.m */; };
+		35793D931D91A6F2008E755A /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D851D91A6F2008E755A /* Product.m */; };
+		35793D961D91A6F2008E755A /* SingleProduct+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D8B1D91A6F2008E755A /* SingleProduct+CoreDataProperties.m */; };
+		35793D971D91A6F2008E755A /* SingleProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793D8D1D91A6F2008E755A /* SingleProduct.m */; };
+		35793DA51D91BC39008E755A /* ProcessViewLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793DA41D91BC39008E755A /* ProcessViewLoader.m */; };
+		35793DA91D91D164008E755A /* CartList.m in Sources */ = {isa = PBXBuildFile; fileRef = 35793DA81D91D164008E755A /* CartList.m */; };
+		35A0DE551D925D25007FFBAF /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35A0DE541D925D25007FFBAF /* 123.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +36,42 @@
 		35793CF61D917089008E755A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35793CF81D917089008E755A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35793CF91D917089008E755A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35793CFB1D917089008E755A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35793CFC1D917089008E755A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35793CFF1D917089008E755A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35793D011D917089008E755A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35793D041D917089008E755A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35793D061D917089008E755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35793D0C1D91711C008E755A /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		35793D0D1D91711C008E755A /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		35793D0F1D917132008E755A /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		35793D101D917132008E755A /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		35793D161D9180BB008E755A /* ParseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseData.h; sourceTree = "<group>"; };
+		35793D171D9180BB008E755A /* ParseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseData.m; sourceTree = "<group>"; };
+		35793D191D918404008E755A /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		35793D1A1D918404008E755A /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		35793D1C1D918486008E755A /* SingleProductS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleProductS.h; sourceTree = "<group>"; };
+		35793D1D1D918486008E755A /* SingleProductS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleProductS.m; sourceTree = "<group>"; };
+		35793D241D9191F7008E755A /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		35793D251D9191F7008E755A /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		35793D271D919210008E755A /* CartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCell.h; sourceTree = "<group>"; };
+		35793D281D919210008E755A /* CartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
+		35793D2A1D919896008E755A /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		35793D2B1D919896008E755A /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		35793D431D919CFF008E755A /* DBParseSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBParseSave.h; sourceTree = "<group>"; };
+		35793D441D919CFF008E755A /* DBParseSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBParseSave.m; sourceTree = "<group>"; };
+		35793D801D91A6B0008E755A /* CueLogicProducts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CueLogicProducts.xcdatamodel; sourceTree = "<group>"; };
+		35793D821D91A6F2008E755A /* Product+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Product+CoreDataProperties.h"; path = "../Product+CoreDataProperties.h"; sourceTree = "<group>"; };
+		35793D831D91A6F2008E755A /* Product+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Product+CoreDataProperties.m"; path = "../Product+CoreDataProperties.m"; sourceTree = "<group>"; };
+		35793D841D91A6F2008E755A /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = ../Product.h; sourceTree = "<group>"; };
+		35793D851D91A6F2008E755A /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = ../Product.m; sourceTree = "<group>"; };
+		35793D8A1D91A6F2008E755A /* SingleProduct+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SingleProduct+CoreDataProperties.h"; path = "../SingleProduct+CoreDataProperties.h"; sourceTree = "<group>"; };
+		35793D8B1D91A6F2008E755A /* SingleProduct+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SingleProduct+CoreDataProperties.m"; path = "../SingleProduct+CoreDataProperties.m"; sourceTree = "<group>"; };
+		35793D8C1D91A6F2008E755A /* SingleProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleProduct.h; path = ../SingleProduct.h; sourceTree = "<group>"; };
+		35793D8D1D91A6F2008E755A /* SingleProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleProduct.m; path = ../SingleProduct.m; sourceTree = "<group>"; };
+		35793DA31D91BC39008E755A /* ProcessViewLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessViewLoader.h; sourceTree = "<group>"; };
+		35793DA41D91BC39008E755A /* ProcessViewLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessViewLoader.m; sourceTree = "<group>"; };
+		35793DA71D91D164008E755A /* CartList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartList.h; sourceTree = "<group>"; };
+		35793DA81D91D164008E755A /* CartList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartList.m; sourceTree = "<group>"; };
+		35A0DE541D925D25007FFBAF /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +88,7 @@
 		35793CE91D917089008E755A = {
 			isa = PBXGroup;
 			children = (
+				35A0DE541D925D25007FFBAF /* 123.jpg */,
 				35793CF41D917089008E755A /* CueLogic_CART */,
 				35793CF31D917089008E755A /* Products */,
 			);
@@ -58,10 +105,16 @@
 		35793CF41D917089008E755A /* CueLogic_CART */ = {
 			isa = PBXGroup;
 			children = (
+				35793D7F1D91A6B0008E755A /* CueLogicProducts.xcdatamodeld */,
+				35793DAB1D91D55E008E755A /* CoreData_Model_Objects */,
+				35793DAA1D91D172008E755A /* CartList_Singleton */,
+				35793DA61D91BC41008E755A /* Custom_Loader */,
+				35793D421D919CC1008E755A /* DB_Operations */,
+				35793D231D918F86008E755A /* Parse_JSON */,
+				35793D221D918F5A008E755A /* Model_Objects */,
+				35793DAC1D91D586008E755A /* Controllers_ALL */,
 				35793CF81D917089008E755A /* AppDelegate.h */,
 				35793CF91D917089008E755A /* AppDelegate.m */,
-				35793CFB1D917089008E755A /* ViewController.h */,
-				35793CFC1D917089008E755A /* ViewController.m */,
 				35793CFE1D917089008E755A /* Main.storyboard */,
 				35793D011D917089008E755A /* Assets.xcassets */,
 				35793D031D917089008E755A /* LaunchScreen.storyboard */,
@@ -77,6 +130,85 @@
 				35793CF61D917089008E755A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35793D221D918F5A008E755A /* Model_Objects */ = {
+			isa = PBXGroup;
+			children = (
+				35793D191D918404008E755A /* Products.h */,
+				35793D1A1D918404008E755A /* Products.m */,
+				35793D1C1D918486008E755A /* SingleProductS.h */,
+				35793D1D1D918486008E755A /* SingleProductS.m */,
+			);
+			name = Model_Objects;
+			sourceTree = "<group>";
+		};
+		35793D231D918F86008E755A /* Parse_JSON */ = {
+			isa = PBXGroup;
+			children = (
+				35793D161D9180BB008E755A /* ParseData.h */,
+				35793D171D9180BB008E755A /* ParseData.m */,
+			);
+			name = Parse_JSON;
+			sourceTree = "<group>";
+		};
+		35793D421D919CC1008E755A /* DB_Operations */ = {
+			isa = PBXGroup;
+			children = (
+				35793D2A1D919896008E755A /* DBManager.h */,
+				35793D2B1D919896008E755A /* DBManager.m */,
+				35793D431D919CFF008E755A /* DBParseSave.h */,
+				35793D441D919CFF008E755A /* DBParseSave.m */,
+			);
+			name = DB_Operations;
+			sourceTree = "<group>";
+		};
+		35793DA61D91BC41008E755A /* Custom_Loader */ = {
+			isa = PBXGroup;
+			children = (
+				35793DA31D91BC39008E755A /* ProcessViewLoader.h */,
+				35793DA41D91BC39008E755A /* ProcessViewLoader.m */,
+			);
+			name = Custom_Loader;
+			sourceTree = "<group>";
+		};
+		35793DAA1D91D172008E755A /* CartList_Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				35793DA71D91D164008E755A /* CartList.h */,
+				35793DA81D91D164008E755A /* CartList.m */,
+			);
+			name = CartList_Singleton;
+			sourceTree = "<group>";
+		};
+		35793DAB1D91D55E008E755A /* CoreData_Model_Objects */ = {
+			isa = PBXGroup;
+			children = (
+				35793D821D91A6F2008E755A /* Product+CoreDataProperties.h */,
+				35793D831D91A6F2008E755A /* Product+CoreDataProperties.m */,
+				35793D841D91A6F2008E755A /* Product.h */,
+				35793D851D91A6F2008E755A /* Product.m */,
+				35793D8A1D91A6F2008E755A /* SingleProduct+CoreDataProperties.h */,
+				35793D8B1D91A6F2008E755A /* SingleProduct+CoreDataProperties.m */,
+				35793D8C1D91A6F2008E755A /* SingleProduct.h */,
+				35793D8D1D91A6F2008E755A /* SingleProduct.m */,
+			);
+			name = CoreData_Model_Objects;
+			sourceTree = "<group>";
+		};
+		35793DAC1D91D586008E755A /* Controllers_ALL */ = {
+			isa = PBXGroup;
+			children = (
+				35793D241D9191F7008E755A /* ProductCell.h */,
+				35793D251D9191F7008E755A /* ProductCell.m */,
+				35793D0C1D91711C008E755A /* ProductsViewController.h */,
+				35793D0D1D91711C008E755A /* ProductsViewController.m */,
+				35793D271D919210008E755A /* CartCell.h */,
+				35793D281D919210008E755A /* CartCell.m */,
+				35793D0F1D917132008E755A /* CartViewController.h */,
+				35793D101D917132008E755A /* CartViewController.m */,
+			);
+			name = Controllers_ALL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A0DE551D925D25007FFBAF /* 123.jpg in Resources */,
 				35793D051D917089008E755A /* LaunchScreen.storyboard in Resources */,
 				35793D021D917089008E755A /* Assets.xcassets in Resources */,
 				35793D001D917089008E755A /* Main.storyboard in Resources */,
@@ -149,9 +282,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35793CFD1D917089008E755A /* ViewController.m in Sources */,
+				35793D811D91A6B0008E755A /* CueLogicProducts.xcdatamodeld in Sources */,
+				35793D451D919CFF008E755A /* DBParseSave.m in Sources */,
+				35793D181D9180BB008E755A /* ParseData.m in Sources */,
+				35793D111D917132008E755A /* CartViewController.m in Sources */,
 				35793CFA1D917089008E755A /* AppDelegate.m in Sources */,
+				35793D1B1D918404008E755A /* Products.m in Sources */,
+				35793D931D91A6F2008E755A /* Product.m in Sources */,
+				35793DA91D91D164008E755A /* CartList.m in Sources */,
+				35793D261D9191F7008E755A /* ProductCell.m in Sources */,
+				35793D971D91A6F2008E755A /* SingleProduct.m in Sources */,
+				35793D0E1D91711C008E755A /* ProductsViewController.m in Sources */,
+				35793D921D91A6F2008E755A /* Product+CoreDataProperties.m in Sources */,
+				35793DA51D91BC39008E755A /* ProcessViewLoader.m in Sources */,
+				35793D2C1D919896008E755A /* DBManager.m in Sources */,
+				35793D291D919210008E755A /* CartCell.m in Sources */,
 				35793CF71D917089008E755A /* main.m in Sources */,
+				35793D1E1D918486008E755A /* SingleProductS.m in Sources */,
+				35793D961D91A6F2008E755A /* SingleProduct+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -264,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CueLogic_CART/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSMahesha.CueLogic-CART";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CueLogic_CART/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSMahesha.CueLogic-CART";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,8 +450,23 @@
 				35793D0B1D917089008E755A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35793D7F1D91A6B0008E755A /* CueLogicProducts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35793D801D91A6B0008E755A /* CueLogicProducts.xcdatamodel */,
+			);
+			currentVersion = 35793D801D91A6B0008E755A /* CueLogicProducts.xcdatamodel */;
+			name = CueLogicProducts.xcdatamodeld;
+			path = ../CueLogicProducts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 35793CEA1D917089008E755A /* Project object */;
 }
